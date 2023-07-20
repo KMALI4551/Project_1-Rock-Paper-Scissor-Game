@@ -63,7 +63,7 @@ while True:
   
   if user_wish == "no" or user_wish =="No" or user_wish =="Exit" or user_wish =="exit":
     break
-  
+  flag = True
   while user_wish != "Yes" and user_wish != "yes":
     flag = True
     print("That's not a Valid Choice. Check your Spelling and Correct it")

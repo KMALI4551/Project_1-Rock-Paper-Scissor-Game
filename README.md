@@ -1,68 +1,59 @@
-# Rock, Paper, Scissors Game
+# Rock Paper Scissors Game
 
-Welcome to the Rock, Paper, Scissors game repository! This project implements the classic game of Rock, Paper, Scissors in Python, allowing players to compete against the computer.
+Welcome to the Rock Paper Scissors game project! In this project, we'll develop a simple command-line version of the classic game "Rock Paper Scissors" using Python.
 
-## Table of Contents
+## Overview
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Introduction
-
-Rock, Paper, Scissors is a simple yet entertaining game played between two players. Each player simultaneously selects one of three options: Rock, Paper, or Scissors. The winner is determined based on the choices made: Rock crushes Scissors, Scissors cuts Paper, and Paper covers Rock.
-
-This repository contains a Python implementation of the game where players can compete against the computer.
-
-## Installation
-
-To run the Rock, Paper, Scissors game on your local machine, follow these steps:
-
-1. Clone the repository to your local machine using the following command:
-git clone https://github.com/KishanKumar08/Project_1-Rock-Paper-Scissor-Game.git
-
-
-2. Navigate to the directory of the game:
-cd Project_1-Rock-Paper-Scissor-Game
-
-
-3. Ensure you have Python installed on your system. This project is compatible with Python 3.
-
-## How to Play
-
-Once you've cloned the repository and navigated to the game directory, you can start playing the Rock, Paper, Scissors game. Follow these steps:
-
-1. Run the game script:
-python rps_game.py
-
-
-2. You will be prompted to choose your move: Rock, Paper, or Scissors.
-
-3. The computer will randomly select its move.
-
-4. The game will determine the winner based on the choices made by both players.
-
-5. Enjoy playing multiple rounds and see if you can outsmart the computer!
+The project aims to demonstrate basic Python programming concepts while implementing a fun and interactive game. The game will allow a player to compete against the computer in multiple rounds of Rock Paper Scissors.
 
 ## Features
 
-The Rock, Paper, Scissors game offers the following features:
+- **User Input**: Players can input their choice of "rock", "paper", or "scissors".
+- **Random Selection**: The computer randomly selects its choice.
+- **Game Logic**: The game logic determines the winner based on the choices made by the player and the computer.
+- **Score Tracking**: The game keeps track of the player's and computer's scores throughout multiple rounds.
+- **Multiple Rounds**: The game continues until the player decides to quit.
+- **User-Friendly Interface**: The game provides clear instructions and prompts for the player.
 
-- Simple command-line interface for easy interaction.
-- Ability to play against the computer.
-- Randomized computer moves to introduce unpredictability and challenge.
-- Lightweight and easy to understand Python codebase.
+## Technologies Used
 
-## Contributing
+- **Python**: The core programming language used for development.
+- **Random Module**: Utilized for generating random selections for the computer's moves.
 
-Contributions to this project are welcome! If you'd like to suggest new features, report bugs, or contribute enhancements, please feel free to submit a pull request. Make sure to follow the project's coding style and guidelines.
+## Project Structure
+
+The project consists of the following files:
+
+1. **`rps_game.py`**: The main Python script containing the game logic.
+2. **`README.md`**: This Markdown file providing an overview of the project.
+3. **`LICENSE`**: The license file defining the terms of use for the project.
+
+## How to Play
+
+1. **Clone the Repository**: Clone the project repository to your local machine using the following command:
+
+'''
+    git clone https://github.com/KishanKumar08/Project_1-Rock-Paper-Scissor-Game.git
+'''
 
 
-## Acknowledgments
+2. **Navigate to the Project Directory**: Move into the directory where the project is cloned.
 
-This Rock, Paper, Scissors game project is inspired by the classic game that has entertained people for generations. Special thanks to the open-source community for their valuable contributions and feedback.
+3. **Run the Game**: Execute the Python script `rps_game.py` using the Python interpreter:
 
+'''
+    python rps_game.py
+'''
+
+4. **Follow the Prompts**: The game will prompt you to enter your choice for each round. Type "rock", "paper", or "scissors" and hit Enter.
+
+5. **View Results**: After each round, the game will display the result, including who won the round and the current score.
+
+6. **Play Again or Quit**: You can choose to play another round or exit the game when prompted.
+
+## Contributions
+
+Contributions to the project are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or submit a pull request.
+
+
+Enjoy playing Rock Paper Scissors! 🎉

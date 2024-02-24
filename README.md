@@ -32,18 +32,18 @@ The project consists of the following files:
 
 1. **Clone the Repository**: Clone the project repository to your local machine using the following command:
 
-'''
+```
     git clone https://github.com/KishanKumar08/Project_1-Rock-Paper-Scissor-Game.git
-'''
+```
 
 
 2. **Navigate to the Project Directory**: Move into the directory where the project is cloned.
 
 3. **Run the Game**: Execute the Python script `rps_game.py` using the Python interpreter:
 
-'''
+```
     python rps_game.py
-'''
+```
 
 4. **Follow the Prompts**: The game will prompt you to enter your choice for each round. Type "rock", "paper", or "scissors" and hit Enter.
 
